@@ -28,7 +28,7 @@ const initialFriends = [
 function App() {
   const [showAddFriend, setShowAddFriend] = useState(false);
   const [friendList, setFriendList] = useState(initialFriends);
-  const [selectedFriend, setSelectedFriend] = useState(null);
+  const [selectedFriend, setSelectedFriend] = useState("");
 
   const showAddFriendHandler = () => {
     setShowAddFriend((i) => !i);
